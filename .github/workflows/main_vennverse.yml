@@ -19,7 +19,7 @@ jobs:
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.3'
+          php-version: '8.2'
 
       - name: Check if composer.json exists
         id: check_files
@@ -63,4 +63,4 @@ jobs:
           app-name: 'vennverse'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F9CAF0FB28DC4422B722D252CA7FDCE0 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5CE06EF36DFA4ECEB7451809BCEBDFE7 }}
