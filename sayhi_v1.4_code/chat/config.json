@@ -27,7 +27,7 @@
     "production":true
   },
   "sslCertificatePath":{
-    "isSsl":true,
+    "isSsl":false,
     "ca":"DigiCertGlobalRootCA.crt.pem",
     "key": "######Path ssl######/##privkey.pem",
     "cert": "######path ssl#####/##fullchain.pem"
