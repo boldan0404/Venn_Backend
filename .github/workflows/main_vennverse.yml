@@ -15,11 +15,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -68,4 +63,4 @@ jobs:
           app-name: 'vennverse'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5CE06EF36DFA4ECEB7451809BCEBDFE7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2F7983070D2C4AE69E3F88B9933997CF }}
