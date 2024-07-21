@@ -28,7 +28,7 @@
   },
   "sslCertificatePath":{
     "isSsl":true,
-    "ca":"ssl/DigiCertGlobalRootCA.crt.pem",
+    "ca":"DigiCertGlobalRootCA.crt.pem",
     "key": "######Path ssl######/##privkey.pem",
     "cert": "######path ssl#####/##fullchain.pem"
   }
